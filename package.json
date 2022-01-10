@@ -1,0 +1,15 @@
+{
+  "name": "react-competence",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@rollup/plugin-typescript": "^8.3.0",
+    "rollup": "^2.63.0",
+    "tslib": "^2.3.1",
+    "typescript": "^4.5.4"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  }
+}
