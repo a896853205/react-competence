@@ -1,3 +1,7 @@
-import a from "./example-tsx";
+import { PermissionHoc } from "./hoc";
+import {
+  Permission as PermissionProvider, 
+  Permission as PProvider
+} from './context';
 
-console.log(a);
+console.log(PermissionHoc, PermissionProvider, PProvider);
